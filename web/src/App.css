@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.about-us {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-us ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-us li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.team-member {
+  text-align: center;
+  padding: 20px;
+}
+
+.team-member h1 {
+  font-size: 2rem;
+}
+
+.team-member p {
+  font-size: 1.2rem;
+}
