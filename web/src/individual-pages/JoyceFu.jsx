@@ -6,6 +6,11 @@ const JoyceFu = () => {
       <h1>Joyce Fu</h1>
       <h2>Scrum Master</h2>
       <p>Joyce is a dedicated Scrum Master, facilitating meetings and improving team productivity.</p>
+      <p>BIO HERE</p>
+      {/* <img
+        src="path to image"
+        alt="img"
+      /> */}
     </div>
   );
 };
