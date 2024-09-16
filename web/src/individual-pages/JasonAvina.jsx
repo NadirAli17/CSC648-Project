@@ -1,5 +1,5 @@
 import React from 'react';
-import jasonImageImage from '../assets/images/jason-avina.png'; // Import the image
+import jasonImage from '../assets/images/jason-avina.png'; // Import the image
 
 const JasonAvina = () => {
   return (
