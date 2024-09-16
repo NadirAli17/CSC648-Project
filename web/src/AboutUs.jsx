@@ -22,6 +22,11 @@ const AboutUs = () => {
         working to create an amazing web application that helps users manage and
         track their career development.
       </p>
+      <p>
+        <br><b>Team Meetings: </b> Monday after class, Wednesday 8pm</br>
+        <br><b>Communication Channel: </b> Discord</br>
+        <br><b>Study Schedule: </b></br>
+      </p>
       <h2>Meet Our Team</h2>
       <div className="team-grid">
         {teamMembers.map((member, index) => (
