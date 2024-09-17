@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './AboutUs.css'; // Assuming you will create some custom CSS here
-import studentImage from './assets/images/placeholder.jpg'; 
+import studentImage from './assets/images/placeholder.JPG'; 
 
 const AboutUs = () => {
   const teamMembers = [
