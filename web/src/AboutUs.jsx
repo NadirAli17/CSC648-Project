@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './AboutUs.css'; // Assuming you will create some custom CSS here
-import studentImage from './assets/images/placeholder.JPG'; 
+import studentImage from './assets/images/placeholder.jpg'; 
 
 const AboutUs = () => {
   const teamMembers = [
@@ -17,17 +17,25 @@ const AboutUs = () => {
   return (
     <div className="about-us">
       <h1>About Us</h1>
+      
+      {/* Intro Section */}
       <p className="intro">
         Welcome to our project! We are a group of 7 dedicated team members
-        working to create an amazing web application that helps users manage and
-        track their career development.
+        working to create an amazing web application that helps users review 
+        and find their favorite games.
       </p>
 
-    <p><b>Meeting Times: </b>Monday after class, Wednesday 8pm</p>
-    <p><b>Meeting Channel: </b>Discord</p>
-    <p><a href="https://docs.google.com/document/d/1KCSDD8qNFlS1uTHWu4Y3orfyIT6Mm_eD91IicC1Htqw/edit?usp=sharing" 
-      target="_blank">View the Team Skills and Study Schedule</a></p>
+      {/* Placeholder Image Section */}
+      <div className="placeholder-image">
+        <img
+          src={studentImage}
+          alt="Placeholder"
+          className="image-placeholder"
+          style={{ width: '400px', height: 'auto', marginBottom: '20px' }} // Image at the top
+        />
+      </div>
 
+      {/* Team Members Section */}
       <h2>Meet Our Team</h2>
       <div className="team-grid">
         {teamMembers.map((member, index) => (
@@ -41,14 +49,12 @@ const AboutUs = () => {
         ))}
       </div>
 
-      {/* Image After the Team Members List */}
-      <div className="placeholder-image">
-        <img
-          src={studentImage}
-          alt="Placeholder"
-          className="image-placeholder"
-          style={{ width: '200px', height: 'auto' }} // You can adjust size as needed
-        />
+      {/* Meeting and Study Schedule Section */}
+      <div className="meeting-info" style={{ marginTop: '40px' }}>
+        <p><b>Meeting Times: </b>Monday after class and Wednesday 8pm</p>
+        <p><b>Meeting Channel: </b>Discord</p>
+        <p><a href="https://docs.google.com/document/d/1KCSDD8qNFlS1uTHWu4Y3orfyIT6Mm_eD91IicC1Htqw/edit?usp=sharing" 
+          target="_blank">View the Team Skills and Study Schedule</a></p>
       </div>
     </div>
   );
